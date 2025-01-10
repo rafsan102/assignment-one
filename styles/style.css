@@ -48,3 +48,29 @@
   padding: 30px;
   border-radius: 10px;
 }
+.electricity {
+  height: 500px;
+  width: 1220px;
+  margin-left: 100px;
+}
+.global-sector {
+  display: flex;
+  border-radius: 20px;
+  background-color: rgba(84, 144, 245, 0.2);
+}
+.global-content {
+  margin-right: 20px;
+  height: 300px;
+  width: 500px;
+  margin: 30px;
+}
+.challenges {
+  justify-content: center;
+  margin-left: 100px;
+  margin: 100px;
+  background-image: url(../B11A1--assignment-1/assets/quote-bg.png);
+  background-repeat: no-repeat;
+  background-color: beige;
+  padding: 30px;
+  border-radius: 20px;
+}
