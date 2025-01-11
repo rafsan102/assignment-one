@@ -57,14 +57,64 @@
 .global-sector {
   display: flex;
   border-radius: 20px;
-  background-color: rgba(84, 144, 245, 0.2);
+  margin: 20px;
+  /* background-color: aliceblue; */
 }
-.global-content {
+.global-content1 {
+  background-color: rgba(84, 144, 245, 0.2);
   margin-right: 20px;
   height: 300px;
   width: 500px;
   margin: 30px;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
 }
+.learn {
+  background-color: rgb(84, 144, 245);
+  padding: 10px;
+  border-radius: 5px;
+}
+.learn:hover {
+  background-color: gray;
+}
+.global-content2 {
+  background-color: rgb(198, 228, 214);
+  margin-right: 20px;
+  height: 300px;
+  width: 500px;
+  margin: 30px;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.learn1 {
+  background-color: rgb(9, 161, 92);
+  padding: 10px;
+  border-radius: 5px;
+}
+.learn1:hover {
+  background-color: gray;
+}
+.global-content3 {
+  background-color: rgb(247, 235, 207);
+  margin-right: 20px;
+  height: 300px;
+  width: 500px;
+  margin: 30px;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.learn2 {
+  background-color: rgb(255, 194, 57);
+  padding: 10px;
+  border-radius: 5px;
+}
+.learn2:hover {
+  background-color: gray;
+}
+
 .challenges {
   justify-content: center;
   margin-left: 100px;
@@ -79,14 +129,21 @@
   display: flex;
   gap: 50px;
 
-  justify-content: space-around;
+  justify-content: space-between;
   border: 1px solid black;
   margin-left: 100px;
   margin-right: 100px;
+  /* margin: 30px; */
 }
+
 .opinion-title,
 h1 {
   margin-left: 100px;
+}
+.new-btn {
+  padding: 5px 10px;
+  margin: 10px;
+  background-color: rgb(198, 228, 214);
 }
 .king {
   background-color: rgb(198, 228, 214);
