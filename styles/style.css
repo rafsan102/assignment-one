@@ -119,3 +119,71 @@ h1 {
 .riona {
   margin-left: 100px;
 }
+.donate {
+  /* max-width: 1000px; */
+  /* margin: 100px auto; */
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 20px;
+  background-color: gainsboro;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.donation {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+.donate-btn {
+  padding: 10px 15px;
+  font-size: 30px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.donate-btn:hover {
+  background-color: aquamarine;
+}
+.amount {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.subscribe {
+  padding: 20px;
+  text-align: center;
+  background-color: aqua;
+  border-radius: 10px;
+  justify-content: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.form {
+  display: flex;
+  /* justify-content: space-between; */
+  margin: 20px 0;
+  justify-content: center;
+  border-radius: 10px;
+}
+.email {
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 100%;
+  text-align: center;
+  margin-left: 200px;
+}
+.btn:hover {
+  background-color: burlywood;
+  color: black;
+}
+.last-part {
+  /* justify-content: center; */
+  text-align: center;
+}
+.icon-img {
+  margin: 20px;
+}
